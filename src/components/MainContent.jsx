@@ -4,7 +4,7 @@ export const MainContent = () => {
 	return (
 		<main className=" w-[100%] h-auto flex flex-wrap flex-col md:flex-row">
 			{/* part1 */}
-			<div className="w-screen md:w-[50%] h-auto px-8 py-4 bg-white text-center lg:text-left lg:px-[7rem] lg:pt-24">
+			<div className="w-screen md:w-[50%] h-auto px-8 py-4 md:py-0  bg-white text-center lg:text-left lg:px-[7rem] lg:pt-24">
 				<h2 className=" font-Fraunces text-[2.5rem] mt-2">
 					Transform your brand
 				</h2>
@@ -17,7 +17,7 @@ export const MainContent = () => {
 				</p>
 
 				<div className="w-[7.5rem] mx-auto lg:mx-0 h-auto relative mt-6 text-left">
-					<button className="font-Fraunces borderBottomAfter1 z-10">
+					<button className="font-Fraunces z-10 before:content-[''] before:absolute before:bg-[#fef3ba] before:hover:bg-yellow-400 before:rounded-full before:w-full before:h-[0.5rem] before:top-[140%]">
 						<p className="absolute uppercase tracking-wide">
 							Learn More
 						</p>
@@ -40,7 +40,7 @@ export const MainContent = () => {
 				</p>
 
 				<div className="w-[7.5rem] mx-auto lg:mx-0 h-auto relative mt-6 text-left">
-					<button className="font-Fraunces borderBottomAfter2 z-10">
+					<button className="font-Fraunces z-10 before:content-[''] before:absolute before:bg-[#ffc2cc] before:hover:bg-red-400 before:rounded-full before:w-full before:h-[0.5rem] before:top-[140%]">
 						<p className="absolute uppercase tracking-wide">
 							Learn More
 						</p>
