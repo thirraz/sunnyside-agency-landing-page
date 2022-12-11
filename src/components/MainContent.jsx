@@ -2,7 +2,7 @@ import React from "react";
 
 export const MainContent = () => {
 	return (
-		<main className=" w-[100%] h-auto mb-14 flex flex-wrap flex-col md:flex-row">
+		<main className=" w-[100%] h-auto flex flex-wrap flex-col md:flex-row">
 			{/* part1 */}
 			<div className="w-screen md:w-[50%] h-auto px-8 py-4 bg-white text-center lg:text-left lg:px-[7rem] lg:pt-24">
 				<h2 className=" font-Fraunces text-[2.5rem] mt-2">
