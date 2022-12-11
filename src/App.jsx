@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Footer } from "./components/Footer";
 
 import { Header } from "./components/Header";
 import { Images } from "./components/Images";
@@ -11,12 +12,13 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className="h-auto w-screen bg-lightBlue pb-24">
+		<div className="h-auto w-screen bg-white">
 			<NavBar />
 			<Header />
 			<MainContent />
 			<TestimonialSection />
 			<Images />
+			<Footer />
 		</div>
 	);
 }
