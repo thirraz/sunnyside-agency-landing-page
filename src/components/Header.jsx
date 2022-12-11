@@ -19,7 +19,7 @@ export const Header = () => {
 					/>
 				</div>
 			</div>
-			<div className=" w-screen h-[31rem]  bg-mbHeader bg-[]  md:bg-dsktHeader lg:h-[40rem] bg-cover bg-no-repeat bg-bottom"></div>
+			<div className=" orangeBg"></div>
 		</div>
 	);
 };

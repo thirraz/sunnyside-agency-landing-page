@@ -24,3 +24,20 @@
 	height: 0.5rem;
 	bottom: -1.2rem;
 }
+
+/* w-screen h-[31rem]  bg-mbHeader bg-[]  md:bg-dsktHeader lg:h-[40rem] bg-cover bg-no-repeat bg-bottom */
+
+.orangeBg {
+	width: 100vw;
+	height: 31rem;
+	background-image: url("./assets/images/desktop/image-header.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+	.orangeBg {
+		height: 40rem;
+	}
+}
