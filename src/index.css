@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	overflow-x: hidden;
+}
+
+.borderBottomAfter1::before {
+	content: "";
+	position: absolute;
+	background: #fef3ba;
+	border-radius: 25px;
+	width: 100%;
+	height: 0.5rem;
+	bottom: -1.2rem;
+}
+.borderBottomAfter2::before {
+	content: "";
+	position: absolute;
+	background: pink;
+	border-radius: 25px;
+	width: 100%;
+	height: 0.5rem;
+	bottom: -1.2rem;
+}
