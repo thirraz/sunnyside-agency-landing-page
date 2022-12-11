@@ -6,13 +6,6 @@ module.exports = {
 			backgroundImage: {
 				logo: "url(./src/assets/images/mobile/logo.svg)",
 				/* mobile backgrounds */
-				mbCone: "url(./src/assets/images/mobile/image-gallery-cone.jpg)",
-				mbmilkBottles:
-					"url(./src/assets/images/mobile/image-gallery-milkbottles.jpg.jpg)",
-				mbCuttedOrangeFruit:
-					"url(./src/assets/images/mobile/image-gallery-orange.jpg)",
-				mbSucarCubes:
-					"url(./src/assets/images/mobile/image-gallery-sugar-cubes.jpg)",
 				mbCherries:
 					"url(./src/assets/images/mobile/image-graphic-design.jpg)",
 				mbHeader:
@@ -32,6 +25,14 @@ module.exports = {
 					"url(./src/assets/images/desktop/image-graphic-design.jpg)",
 				dsktOrangeFruit:
 					"url(./src/assets/images/desktop/image-photography.jpg)",
+				dsktMilkBottles:
+					"url(./src/assets/images/mobile/image-gallery-milkbottles.jpg.jpg)",
+				dsktCuttedOrangeFruit:
+					"url(./src/assets/images/mobile/image-gallery-orange.jpg)",
+				dsktSucarCubes:
+					"url(./src/assets/images/mobile/image-gallery-sugar-cubes.jpg)",
+				dsktCone:
+					"url(./src/assets/images/mobile/image-gallery-cone.jpg)",
 			},
 			colors: {
 				lightBlue: "#3EBFFF",

@@ -5,8 +5,8 @@ import { TestimonialCard } from "./TestimonialCard";
 
 export const TestimonialSection = () => {
 	return (
-		<div className="w-screen h-auto bg-white ">
-			<h2 className="text-slate-400 font-Fraunces tracking-[.4rem] text-2xl pb-">
+		<div className="w-screen h-auto bg-white flex flex-col items-center justify-center md:h-screen">
+			<h2 className="text-slate-400 font-Fraunces tracking-[.2rem] text-xl uppercase pb-12 pt-9 ">
 				Client Testimonials
 			</h2>
 			<div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
