@@ -19,7 +19,7 @@ export const Header = () => {
 					/>
 				</div>
 			</div>
-			<div className=" orangeBg"></div>
+			<div className="orangeBg"></div>
 		</div>
 	);
 };

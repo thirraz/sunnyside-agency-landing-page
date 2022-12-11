@@ -25,8 +25,6 @@
 	bottom: -1.2rem;
 }
 
-/* w-screen h-[31rem]  bg-mbHeader bg-[]  md:bg-dsktHeader lg:h-[40rem] bg-cover bg-no-repeat bg-bottom */
-
 .orangeBg {
 	width: 100vw;
 	height: 31rem;
@@ -36,8 +34,103 @@
 	background-repeat: no-repeat;
 }
 
+.mainContentImg1 {
+	background-image: url("./assets/images/desktop/image-transform.jpg");
+}
+
+.mainContentImg2 {
+	background-image: url("./assets/images/desktop/image-stand-out.jpg");
+}
+
+.mainContentImg1,
+.mainContentImg2 {
+	width: 100vw;
+	height: 24rem;
+	background-size: cover;
+	background-position: center;
+}
+.mainContentImg3,
+.mainContentImg4 {
+	position: relative;
+	width: 100vw;
+	height: 38rem;
+	background-size: cover;
+	background-position: top;
+}
+.mainContentImg3 {
+	background-image: url("./assets/images/desktop/image-graphic-design.jpg");
+}
+
+.mainContentImg4 {
+	background-image: url("./assets/images/desktop/image-photography.jpg");
+}
+
+.imagesSection1,
+.imagesSection2,
+.imagesSection4 {
+	width: 50%;
+	height: 50%;
+	background-size: cover;
+	background-position: bottom;
+}
+.imagesSection1 {
+	background-image: url("./assets/images/desktop/image-gallery-milkbottles.jpg");
+}
+.imagesSection2 {
+	background-image: url("./assets/images/desktop/image-gallery-orange.jpg");
+}
+.imagesSection3 {
+	width: 50%;
+	height: 50%;
+	background-image: url("./assets/images/desktop/image-gallery-cone.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.imagesSection4 {
+	background-image: url("./assets/images/desktop/image-gallery-sugarcubes.jpg");
+}
+
 @media screen and (min-width: 768px) {
 	.orangeBg {
 		height: 40rem;
+	}
+
+	.mainContentImg1 {
+		width: 50vw;
+		background-position: top;
+	}
+	.mainContentImg2,
+	.mainContentImg3,
+	.mainContentImg4 {
+		width: 50vw;
+		background-position: top;
+		background-size: cover;
+	}
+
+	.imagesSection1,
+	.imagesSection2,
+	.imagesSection3,
+	.imagesSection4 {
+		width: 25%;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.mainContentImg1 {
+		width: 50vw;
+		height: 32rem;
+		background-position: top;
+	}
+	.mainContentImg2 {
+		width: 50vw;
+		height: 32rem;
+		background-position: bottom;
+	}
+	.mainContentImg3 {
+		background-position: center;
+	}
+	.mainContentImg4 {
+		background-position: center;
 	}
 }
