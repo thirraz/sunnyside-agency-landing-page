@@ -2,6 +2,8 @@ import React from "react";
 
 import arrowDown from "../assets/images/icon-arrow-down.svg";
 
+import orange from "../assets/images/desktop/image-header.jpg";
+
 export const Header = () => {
 	return (
 		<div className="w-screen relative">
@@ -17,7 +19,7 @@ export const Header = () => {
 					/>
 				</div>
 			</div>
-			<div className="w-screen h-[31rem]  bg-mbHeader md:bg-dsktHeader lg:h-[40rem] bg-cover bg-no-repeat bg-bottom"></div>
+			<div className=" w-screen h-[31rem]  bg-mbHeader bg-[]  md:bg-dsktHeader lg:h-[40rem] bg-cover bg-no-repeat bg-bottom"></div>
 		</div>
 	);
 };
