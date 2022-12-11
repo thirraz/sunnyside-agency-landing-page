@@ -24,9 +24,9 @@ export const MainContent = () => {
 					</button>
 				</div>
 			</div>
-			<div className="bg-yellow w-screen h-[24rem] lg:h-[32rem] md:w-[50%] bg-dsktEgg  bg-cover bg-no-repeat bg-center md:bg-top" />
+			<div className="w-screen h-[24rem] lg:h-[32rem] md:w-[50%] bg-dsktEgg  bg-cover bg-no-repeat bg-center md:bg-top" />
 			{/* part2 */}
-			<div className="bg-pink w-screen h-[22rem] lg:h-[32rem] md:w-[50%] bg-dsktPinkCup bg-cover  bg-no-repeat bg-center md:bg-top" />
+			<div className="w-screen h-[22rem] lg:h-[32rem] md:w-[50%] bg-dsktPinkCup bg-cover  bg-no-repeat bg-center md:bg-top" />
 			<div className="w-screen md:w-[50%] h-auto px-8 py-4 md:py-0  bg-white text-center lg:text-left lg:px-[7rem] lg:pt-24 ">
 				<h2 className=" font-Fraunces text-[2.5rem] mt-2">
 					Stand out to the right audience

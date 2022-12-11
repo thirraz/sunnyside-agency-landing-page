@@ -26,13 +26,13 @@ module.exports = {
 				dsktOrangeFruit:
 					"url(./src/assets/images/desktop/image-photography.jpg)",
 				dsktMilkBottles:
-					"url(./src/assets/images/mobile/image-gallery-milkbottles.jpg.jpg)",
+					"url(./src/assets/images/desktop/image-gallery-milkbottles.jpg)",
 				dsktCuttedOrangeFruit:
-					"url(./src/assets/images/mobile/image-gallery-orange.jpg)",
-				dsktSucarCubes:
-					"url(./src/assets/images/mobile/image-gallery-sugar-cubes.jpg)",
+					"url(./src/assets/images/desktop/image-gallery-orange.jpg)",
+				dsktSugarCubes:
+					"url(./src/assets/images/desktop/image-gallery-sugarcubes.jpg)",
 				dsktCone:
-					"url(./src/assets/images/mobile/image-gallery-cone.jpg)",
+					"url(./src/assets/images/desktop/image-gallery-cone.jpg)",
 			},
 			colors: {
 				lightBlue: "#3EBFFF",
