@@ -4,35 +4,35 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				logo: "url(./src/assets/images/mobile/logo.svg)",
+				logo: "url('./src/assets/images/mobile/logo.svg')",
 				/* mobile backgrounds */
 				mbCherries:
-					"url(./src/assets/images/mobile/image-graphic-design.jpg)",
+					"url('./src/assets/images/mobile/image-graphic-design.jpg')",
 				mbHeader:
-					"url(./src/assets/images/mobile/image-header.jpg)",
+					"url('./src/assets/images/mobile/image-header.jpg')",
 				mbOrangeFruit:
-					"url(./src/assets/images/mobile/image-photography.jpg)",
+					"url('./src/assets/images/mobile/image-photography.jpg')",
 				mbPinkCup:
-					"url(./src/assets/images/mobile/image-stand-out.jpg)",
-				mbEgg: "url(./src/assets/images/mobile/image-transform.jpg)",
+					"url('./src/assets/images/mobile/image-stand-out.jpg')",
+				mbEgg: "url('./src/assets/images/mobile/image-transform.jpg')",
 				/* desktop backgrounds */
 				dsktHeader:
-					"url(./src/assets/images/desktop/image-header.jpg)",
-				dsktEgg: "url(./src/assets/images/desktop/image-transform.jpg)",
+					"url('./src/assets/images/desktop/image-header.jpg')",
+				dsktEgg: "url('./src/assets/images/desktop/image-transform.jpg')",
 				dsktPinkCup:
-					"url(./src/assets/images/desktop/image-stand-out.jpg)",
+					"url('./src/assets/images/desktop/image-stand-out.jpg')",
 				dsktCherries:
-					"url(./src/assets/images/desktop/image-graphic-design.jpg)",
+					"url('./src/assets/images/desktop/image-graphic-design.jpg')",
 				dsktOrangeFruit:
-					"url(./src/assets/images/desktop/image-photography.jpg)",
+					"url('./src/assets/images/desktop/image-photography.jpg')",
 				dsktMilkBottles:
-					"url(./src/assets/images/desktop/image-gallery-milkbottles.jpg)",
+					"url('./src/assets/images/desktop/image-gallery-milkbottles.jpg')",
 				dsktCuttedOrangeFruit:
-					"url(./src/assets/images/desktop/image-gallery-orange.jpg)",
+					"url('./src/assets/images/desktop/image-gallery-orange.jpg')",
 				dsktSugarCubes:
-					"url(./src/assets/images/desktop/image-gallery-sugarcubes.jpg)",
+					"url('./src/assets/images/desktop/image-gallery-sugarcubes.jpg')",
 				dsktCone:
-					"url(./src/assets/images/desktop/image-gallery-cone.jpg)",
+					"url('./src/assets/images/desktop/image-gallery-cone.jpg')",
 			},
 			colors: {
 				lightBlue: "#3EBFFF",
