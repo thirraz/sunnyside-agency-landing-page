@@ -20,14 +20,14 @@ export const Footer = () => {
 					fill-rule="nonzero"
 				/>
 			</svg>
-			<ul className="w-full md:w-[35%] lg:w-[20%] flex justify-evenly font-Barlow text-[#2E7565] opacity-80">
+			<ul className="w-full md:w-[35%] lg:w-[20%] flex justify-evenly font-Barlow text-[#2E7565] opacity-80 ">
 				<li className="text-[1.1rem]">About</li>
 				<li className="text-[1.1rem]">Services</li>
 				<li className="text-[1.1rem]">Projects</li>
 			</ul>
 			<div className="w-screen flex  justify-center mt-16 mb-20">
 				<img
-					className="ml-5"
+					className="ml-0"
 					src={facebookIcon}
 					alt="facebook's icon"
 				/>

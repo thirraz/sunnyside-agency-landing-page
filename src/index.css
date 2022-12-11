@@ -40,14 +40,19 @@
 
 .mainContentImg2 {
 	background-image: url("./assets/images/desktop/image-stand-out.jpg");
+	background-size: cover;
+	background-position: top;
+}
+
+.mainContentImg1 {
+	background-size: cover;
+	background-position: center;
 }
 
 .mainContentImg1,
 .mainContentImg2 {
 	width: 100vw;
 	height: 24rem;
-	background-size: cover;
-	background-position: center;
 }
 .mainContentImg3,
 .mainContentImg4 {
@@ -90,6 +95,10 @@
 	background-image: url("./assets/images/desktop/image-gallery-sugarcubes.jpg");
 }
 
+.testimonials {
+	overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
 	.orangeBg {
 		height: 40rem;
@@ -125,12 +134,12 @@
 	.mainContentImg2 {
 		width: 50vw;
 		height: 32rem;
-		background-position: bottom;
+		background-position: top;
 	}
 	.mainContentImg3 {
 		background-position: center;
 	}
 	.mainContentImg4 {
-		background-position: center;
+		background-position: top;
 	}
 }
